@@ -1,14 +1,14 @@
-# Circuitpython HIH Driver
+# Circuitpython Humidicon Driver
 
-> Circuitpython driver for the Honeywells Humidlcon sensors.
+> Circuitpython driver for the Honeywell Humidicon sensors.
 
-i2c driver to retrieve humidity and temperature data from Humidicon sensors. This library has only been tested with an HIH-6130 but should work with most Humidicon sensors as the family shares the same i2c specification. Please let me know you test it on other sensors.
+i2c driver to retrieve humidity and temperature data from Humidicon sensors. This library has only been tested with an HIH-6130 but should work with most Humidicon sensors as the family shares the same i2c specification. Please let me know if you have test it on other HIH sensors.
 
 ## Installation
 
-Place circuitpython_humidicon.py in your "lib" folder.
+Place `circuitpython_humidicon.py` in your "lib" folder.
 
-Requires Adafruit's bus driver "adafruit_bus_device" found in the circuitpython library bundle.
+Requires Adafruit's bus driver `adafruit_bus_device` found in the circuitpython library bundle.
 
 ## Usage example
 

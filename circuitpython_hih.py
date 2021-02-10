@@ -1,14 +1,15 @@
 """
 
-'circuitpython_humidicon'
+'circuitpython_hih'
 =================================================================
 
 CircuitPython driver for Honeywell HumidIcon Sensors
 
 Tested on HIH-6130
 
-Author: Drew VanVlack
+MIT License
 
+Copyright (c) 2021 Drew VanVlack
 """
 import board
 import busio
